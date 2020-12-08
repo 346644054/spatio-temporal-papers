@@ -47,7 +47,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 | Models |  Modules   |                 Architecture                 | conclusion                                                   |
 | :----- | :--------: | :------------------------------------------: | :----------------------------------------------------------- |
-| SLC    | SLCNN, P3D | ![STGCN](./papers/2020/AAAI/SLC/img/SLC.png) | This paper proposes a new type of graph convolution formula. ***\*The article mentions that it is necessary to learn not only the feature information on the graph, but also the structure information of the graph\****, which means that the structure of the graph changes dynamically. Use P3D to model the time dependence. |
+| SLC    | SLCNN, P3D | ![STGCN](./papers/2020/AAAI/SLC/img/SLC.png) | This paper proposes a new type of graph convolution formula. **The article mentions that it is necessary to learn not only the feature information on the graph, but also the structure information of the graph**, which means that the structure of the graph changes dynamically. Use P3D to model the time dependence. |
 
 *Qi Zhang, Jianlong Chang, Gaofeng Meng, Shiming Xiang, Chunhong Pan*
 
@@ -139,6 +139,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 # [Experts](#content)
 
 (排名不分先后)
+
 [1] Yu Zheng: [link](http://urban-computing.com/yuzheng)
 
 [2] Yanhua Li: [link](http://users.wpi.edu/~yli15/index.html)
