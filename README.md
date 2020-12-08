@@ -1,5 +1,13 @@
-# spatio-temporal-papers
-Must-read papers on spatio-temporal domain.
+# Spatio-Temporal-papers
+本项目包括：时空领域历年顶会/顶刊论文，相关数据集与时空领域知名专家学者信息。
+
+
+
+This project includes: papers of the top conferences/journals in the field of Spatio-Temporal domain, relevant data sets and information of well-known experts and scholars in the field of Spatio-Temporal domain.
+
+# Contribution
+
+Contributions are always welcome! Make an individual pull request for each suggestion. Please follow the specification：**[contribute](./contribute.md)**.
 
 # Content
 
