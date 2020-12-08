@@ -45,11 +45,17 @@
 ---
 
 <details><summary> 2018 </summary>
+
 [3] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md)** [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
+
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
 <hr>
+
 [4] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2018/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+
+  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 <hr>
+</details>
 
 
 ## [Flows Prediction](#content)
