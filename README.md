@@ -37,6 +37,31 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 # [Survey papers](#content)
 
+[1] **Urban Computing: Concepts, Methodologies, and Applications.** ACM Transactions on Intelligent Systems and Technology 2014. [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/UrbanComputing-zheng-tist2014.pdf)
+
+*YU ZHENG, LICIA CAPRA, OURI WOLFSON, HAI YANG*
+
+---
+
+[2] **Deep Learning for Spatio-Temporal Data Mining: A Survey.** IEEE Transactions on Knowledge and Data Engineering 2020. [paper](https://arxiv.org/pdf/1906.04928.pdf)
+
+*Senzhang Wang, Jiannong Cao, Fellow, Philip S. Yu*
+
+---
+
+[3] **A Survey on Modern Deep Neural Network for Traffic Prediction: Trends, Methods and Challenges.** IEEE Transactions on Knowledge and Data Engineering 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9112608)
+
+*David Alexander Tedjopurnomo, Zhifeng Bao, Baihua Zheng, Farhana Murtaza Choudhury, Kai Qin*
+
+---
+
+[6] **How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey.** arXiv 2020. [paper](https://arxiv.org/pdf/2005.11691.pdf)
+
+[translation](https://github.com/Knowledge-Precipitation-Tribe/How-to-Build-a-Graph-Based-Deep-Learning-Architecture-in-Traffic-Domain)
+
+*Jiexia Ye, Juanjuan Zhao, Kejiang Ye, Chengzhong Xu*
+
+---
 
 
 # [Applications](#content)
@@ -63,17 +88,22 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ---
 
+<details><summary> 2019 </summary>
+
+[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2018/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+
+  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
+
+<hr>
+</details>
+
+---
+
 <details><summary> 2018 </summary>
 
 [1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md) [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
 
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
-
-<hr>
-
-[2] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2018/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
-
-  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 
 <hr>
 </details>
