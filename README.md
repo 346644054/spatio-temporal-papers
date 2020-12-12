@@ -43,32 +43,29 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ---
 
-[2] **Deep Learning for Spatio-Temporal Data Mining: A Survey.** IEEE Transactions on Knowledge and Data Engineering 2020. [paper](https://arxiv.org/pdf/1906.04928.pdf)
+[2] **Deep Learning for Spatio-Temporal Data Mining: A Survey.** IEEE Transactions on Knowledge and Data Engineering(TKDE) 2020. [paper](https://arxiv.org/pdf/1906.04928.pdf)
 
 *Senzhang Wang, Jiannong Cao, Fellow, Philip S. Yu*
 
 ---
 
-[3] **A Survey on Modern Deep Neural Network for Traffic Prediction: Trends, Methods and Challenges.** IEEE Transactions on Knowledge and Data Engineering 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9112608)
+[3] **A Survey on Modern Deep Neural Network for Traffic Prediction: Trends, Methods and Challenges.** IEEE Transactions on Knowledge and Data Engineering(TKDE) 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9112608)
 
 *David Alexander Tedjopurnomo, Zhifeng Bao, Baihua Zheng, Farhana Murtaza Choudhury, Kai Qin*
 
 ---
 
-[6] **How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey.** arXiv 2020. [paper](https://arxiv.org/pdf/2005.11691.pdf)
-
-[translation](https://github.com/Knowledge-Precipitation-Tribe/How-to-Build-a-Graph-Based-Deep-Learning-Architecture-in-Traffic-Domain)
+[4] **How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey.** arXiv 2020. [paper](https://arxiv.org/pdf/2005.11691.pdf)
 
 *Jiexia Ye, Juanjuan Zhao, Kejiang Ye, Chengzhong Xu*
 
 ---
 
-
 # [Applications](#content)
 
 ## [Traffic Prediction](#content)
 
-[1] **Spatio-Temporal Graph Structure Learning for Traffic Forecasting.** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md) [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5470).
+[1] **[Spatio-Temporal Graph Structure Learning for Traffic Forecasting.](./papers/2020/AAAI/SLC)** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5470).
 
 | Models |  Modules   |                 Architecture                 | conclusion                                                   |
 | :----- | :--------: | :------------------------------------------: | :----------------------------------------------------------- |
@@ -78,7 +75,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ---
 
-[2] **GMAN: A Graph Multi-Attention Network for Traffic Prediction.** AAAI 2020. [note](./papers/2020/AAAI/GMAN/note.md) [paper](https://arxiv.org/pdf/1911.08415.pdf), [github](https://github.com/zhengchuanpan/GMAN)
+[2] **GMAN: A Graph Multi-Attention Network for Traffic Prediction.** AAAI 2020. [note](./papers/2020/AAAI/GMAN/note.md), [paper](https://arxiv.org/pdf/1911.08415.pdf), [github](https://github.com/zhengchuanpan/GMAN)
 
 | Models |                   Modules                    |                 Architecture                  | conclusion                                                   |
 | :----: | :------------------------------------------: | :-------------------------------------------: | :----------------------------------------------------------- |
@@ -88,13 +85,36 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ---
 
+[3] **Dynamic Graph Convolution Network for Traffic Forecasting Based on Latent Network of Laplace Matrix Estimation.** IEEE Transactions on Intelligent Transportation Systems(TITS) 2020. [note](./papers/2020/TITS/DGCN/note.md), [paper](https://ieeexplore.ieee.org/document/9190068)
+
+| Models | Modules | Architecture | conclusion |
+| :----: | :-----: | :----------: | :--------: |
+|        |         |              |            |
+
+*Kan Guo, Yongli Hu, ZhenQian, Yanfeng Sun, Junbin Gao, Baocai Yin*
+
+---
+
+[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN), [code](https://pan.baidu.com/s/1RlzpUMMcoaQSIwz1B5aF8Q ) 密码:3jkd.
+
+| Models |               Modules               |        Architecture         | conclusion                                                   |
+| :----: | :---------------------------------: | :-------------------------: | :----------------------------------------------------------- |
+| STSGCN | Spatial-Temporal Embedding, STSGCM, | ![STSGCN](./img/STSGCN.png) | This paper proposes a new structured local spatio-temporal graph. By combining the graph structures of adjacent time slices into a local spatio-temporal graph, a new adjacency matrix is constructed, which can simultaneously capture spatio-temporal dependence. |
+
+
+
+*Chao Song, Youfang Lin, Shengnan Guo, Huaiyu Wan*
+
+---
+
 <details><summary> 2019 </summary>
 
-[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2018/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
   *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 
 <hr>
+
 </details>
 
 ---
@@ -106,6 +126,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
 
 <hr>
+
 </details>
 
 
