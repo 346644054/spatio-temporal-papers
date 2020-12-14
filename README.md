@@ -20,7 +20,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 </tr> 
 <tr>
     <td>&emsp;<a href="#demand-prediction">2.3 Demand Prediction</a></td>
-    <td>&ensp;<a href="#travel-time-or-arrive-time-prediction">3.4 Travel time or Arrive time Prediction</a></td>
+    <td>&ensp;<a href="#travel-time-or-arrive-time-prediction">2.4 Travel time or Arrive time Prediction</a></td>
 </tr>
 <tr><td colspan="2"><a href="#datasets">3. Datasets</a></td></tr>
 <tr>
@@ -32,6 +32,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 </tr> 
 <tr><td colspan="2"><a href="#experts">4. Experts</a></td></tr> 
 </table>
+
 
 
 
@@ -95,21 +96,18 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ---
 
-[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN)
+[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [note](./papers/2020/AAAI/STSGCN/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN)
 
 | Models |               Modules               |                    Architecture                     | conclusion                                                   |
 | :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
 | STSGCN | Spatial-Temporal Embedding, STSGCM, | ![STSGCN](./papers/2020/AAAI/STSGCN/img/STSGCN.png) | This paper proposes a new structured local spatio-temporal graph. By combining the graph structures of adjacent time slices into a local spatio-temporal graph, a new adjacency matrix is constructed, which can simultaneously capture spatio-temporal dependence. |
-
-
 
 *Chao Song, Youfang Lin, Shengnan Guo, Huaiyu Wan*
 
 ---
 
 <details><summary> 2019 </summary>
-
-[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md) [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
   *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 
@@ -120,23 +118,127 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2018 </summary>
-
-[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md) [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
+[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
 
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
 
 <hr>
-
 </details>
 
 
 
 ## [Flows Prediction](#content)
 
+
+<details><summary> 2019 </summary>
+[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+
+  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
+
+<hr>
+
+</details>
+
+---
+
+<details><summary> 2018 </summary>
+[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
+
+  *Bing Yu, Haoteng Yin, Zhanxing Zhu*
+
+<hr>
+</details>
+
 ## [Demand Prediction](#content)
+
+[1] **Taxi Demand Prediction Using Parallel Multi-Task Learning Model.** TITS 2020. [note](), [paper](https://ieeexplore.ieee.org/document/9172100)
+
+| Models | Modules | Architecture | conclusion |
+| :----: | :-----: | :----------: | :--------: |
+|        |         |              |            |
+
+*Chizhan Zhang, Fenghua Zhu, Xiao Wang, Leilei Sun, Haina Tang, Yisheng Lv*
+
+---
+
+[2] **Traffic Demand Prediction Based on Dynamic Transition Convolutional Neural Network.** TITS 2020. [note](), [paper](https://ieeexplore.ieee.org/abstract/document/8968739)
+
+| Models | Modules | Architecture | conclusion |
+| :----: | :-----: | :----------: | :--------: |
+|        |         |              |            |
+
+*Bowen Du, Xiao Hu, Leilei Sun, Junming Liu, Yanan Qiao, Weifeng Lv*
+
+---
+
+
+<details><summary> 2019 </summary>
+[1] **Origin-Destination Matrix Prediction via Graph Convolution: a New Perspective of Passenger Demand Modeling.** SIGKDD 2019. [note](), [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330877)
+
+  *Yuandong Wang, Hongzhi Yin, Hongxu Chen, Tianyu Wo, Jie Xu, Kai Zheng*
+
+<hr>
+
+[2] **STG2Seq: Spatial-temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.** IJCAI 2019. [paper](https://arxiv.org/abs/1905.10069)
+
+  *Lei Bai, Lina Yao , Salil.S Kanhere, Xianzhi Wang, Quan.Z Sheng*
+
+<hr>
+
+
+
+</details>
+
+---
+
+<details><summary> 2018 </summary>
+[1] **Deep Multi-View Spatial-Temporal Network for Taxi Demand Prediction.** AAAI 2018. [note](), [paper](https://arxiv.org/pdf/1802.08714.pdf)
+
+  *Huaxiu Yao, Fei Wu, Jintao Ke, Xianfeng Tang, Yitian Jia, Siyu Lu, Pinghua Gong, Jieping Ye, Zhenhui Li*
+
+<hr>
+</details>
 
 ## [Travel time or Arrive time Prediction](#content)
 
+**HetETA: Heterogeneous Information Network Embedding for Estimating Time of Arrival.** SIGKDD 2020. [note](), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/heteta-heterogeneous-information-network-embedding-for-estimating-time-of-a), [github](https://github.com/didi/heteta)
+
+| Models |    Modules     |        Architecture         | conclusion                                                   |
+| :----: | :------------: | :-------------------------: | :----------------------------------------------------------- |
+| HetETA | GatedCNNs, GCN | ![HetETA](./img/HetETA.png) | In this paper, traffic structure is constructed by digging deeper semantic information of traffic network. HetETA combines gated convolution neural networks and graph neural networks to capture the correlations in spatiotemporal information. |
+
+*Huiting Hong, Yucheng Lin, Xiaoqing Yang, Zang Li, Kun Fu, Zheng Wang, Xiaohu Qie, Jieping Ye*
+
+---
+
+**CompactETA: A Fast Inference System for Travel Time Prediction.** KDD 2020. [note](), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/compacteta-a-fast-inference-system-for-travel-time-prediction)
+
+| Models | Modules | Architecture | conclusion |
+| :----: | :-----: | :----------: | :--------: |
+|        |         |              |            |
+
+*Kun Fu, Fanlin Meng, Jieping Ye, Zheng Wang*
+
+---
+
+
+
+
+<details><summary> 2019 </summary>
+[1] **Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting.** AAAI 2019. [paper](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf).
+
+  *Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu*
+
+<hr>
+
+</details>
+
+---
+
+<details><summary> 2018 </summary>
+
+<hr>
+</details>
 
 
 # [Datasets](#content)
