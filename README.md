@@ -87,19 +87,19 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 [3] **Dynamic Graph Convolution Network for Traffic Forecasting Based on Latent Network of Laplace Matrix Estimation.** IEEE Transactions on Intelligent Transportation Systems(TITS) 2020. [note](./papers/2020/TITS/DGCN/note.md), [paper](https://ieeexplore.ieee.org/document/9190068)
 
-| Models | Modules | Architecture | conclusion |
-| :----: | :-----: | :----------: | :--------: |
-|        |         |              |            |
+| Models | Modules  |                  Architecture                   | conclusion                                                   |
+| :----: | :------: | :---------------------------------------------: | :----------------------------------------------------------- |
+|  DGCN  | TCL,GTCL | ![STSGCN](./papers/2020/TITS/DGCN/img/DGCN.png) | Different from most of the current GCN based methods, which generally used empirical graph Laplace matrix in graph convolution, this paper propose a latent network to estimate the dynamic Laplace matrix adaptively, which is verified with good ability to extract spatial-temporal correlation of the traffic data. |
 
 *Kan Guo, Yongli Hu, ZhenQian, Yanfeng Sun, Junbin Gao, Baocai Yin*
 
 ---
 
-[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN), [code](https://pan.baidu.com/s/1RlzpUMMcoaQSIwz1B5aF8Q ) 密码:3jkd.
+[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN)
 
-| Models |               Modules               |        Architecture         | conclusion                                                   |
-| :----: | :---------------------------------: | :-------------------------: | :----------------------------------------------------------- |
-| STSGCN | Spatial-Temporal Embedding, STSGCM, | ![STSGCN](./img/STSGCN.png) | This paper proposes a new structured local spatio-temporal graph. By combining the graph structures of adjacent time slices into a local spatio-temporal graph, a new adjacency matrix is constructed, which can simultaneously capture spatio-temporal dependence. |
+| Models |               Modules               |                    Architecture                     | conclusion                                                   |
+| :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
+| STSGCN | Spatial-Temporal Embedding, STSGCM, | ![STSGCN](./papers/2020/AAAI/STSGCN/img/STSGCN.png) | This paper proposes a new structured local spatio-temporal graph. By combining the graph structures of adjacent time slices into a local spatio-temporal graph, a new adjacency matrix is constructed, which can simultaneously capture spatio-temporal dependence. |
 
 
 
