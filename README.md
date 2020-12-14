@@ -32,10 +32,6 @@ Contributions are always welcome! Make an individual pull request for each sugge
 </tr> 
 <tr><td colspan="2"><a href="#experts">4. Experts</a></td></tr> 
 </table>
-
-
-
-
 # [Survey papers](#content)
 
 [1] **Urban Computing: Concepts, Methodologies, and Applications.** ACM Transactions on Intelligent Systems and Technology 2014. [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/UrbanComputing-zheng-tist2014.pdf)
@@ -107,6 +103,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2019 </summary>
+
 [1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
   *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
@@ -118,6 +115,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2018 </summary>
+
 [1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
 
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
@@ -131,6 +129,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
 [1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
   *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
@@ -142,6 +141,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2018 </summary>
+
 [1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
 
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
@@ -173,6 +173,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
 [1] **Origin-Destination Matrix Prediction via Graph Convolution: a New Perspective of Passenger Demand Modeling.** SIGKDD 2019. [note](), [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330877)
 
   *Yuandong Wang, Hongzhi Yin, Hongxu Chen, Tianyu Wo, Jie Xu, Kai Zheng*
@@ -186,12 +187,12 @@ Contributions are always welcome! Make an individual pull request for each sugge
 <hr>
 
 
-
 </details>
 
 ---
 
 <details><summary> 2018 </summary>
+
 [1] **Deep Multi-View Spatial-Temporal Network for Taxi Demand Prediction.** AAAI 2018. [note](), [paper](https://arxiv.org/pdf/1802.08714.pdf)
 
   *Huaxiu Yao, Fei Wu, Jintao Ke, Xianfeng Tang, Yitian Jia, Siyu Lu, Pinghua Gong, Jieping Ye, Zhenhui Li*
@@ -225,6 +226,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
 [1] **Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting.** AAAI 2019. [paper](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf).
 
   *Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu*
