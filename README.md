@@ -155,9 +155,9 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 [1] **Taxi Demand Prediction Using Parallel Multi-Task Learning Model.** TITS 2020. [note](), [paper](https://ieeexplore.ieee.org/document/9172100)
 
-| Models | Modules | Architecture | conclusion |
-| :----: | :-----: | :----------: | :--------: |
-|        |         |              |            |
+| Models  | Modules |                      Architecture                      | conclusion                                                   |
+| :-----: | :-----: | :----------------------------------------------------: | :----------------------------------------------------------- |
+| pmlLSTM |         | ![pmlLSTm](./papers/2020/TITS/pmlLSTM/img/pmlLSTM.png) | This paper focus on the co-prediction of taxi pick-up and drop-off demands, and propose a parallel multi-task learning model, which can deal with shared features of multiple tasks simultaneously. In addition, this paper  design a novel taxi demand classifier to extract the time information hidden in the data, which embeds the time of a day feature into the forecasting model. |
 
 *Chizhan Zhang, Fenghua Zhu, Xiao Wang, Leilei Sun, Haina Tang, Yisheng Lv*
 
@@ -165,9 +165,9 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 [2] **Traffic Demand Prediction Based on Dynamic Transition Convolutional Neural Network.** TITS 2020. [note](), [paper](https://ieeexplore.ieee.org/abstract/document/8968739)
 
-| Models | Modules | Architecture | conclusion |
-| :----: | :-----: | :----------: | :--------: |
-|        |         |              |            |
+| Models | Modules |                   Architecture                   | conclusion                                                   |
+| :----: | :-----: | :----------------------------------------------: | :----------------------------------------------------------- |
+| DTCNN  | DGCGRU  | ![DTCNN](./papers/2020/TITS/DTCNN/img/DTCNN.png) | This paper consists of three modules: 1) transition network construction, which encodes the discovered virtual stations as nodes, and transition flows between them as edges; 2) a dynamic transi- tion convolution unit, which captures the spatial distributions and temporal dynamics of traffic demands simultaneously; 3) a fusion module, which integrates the hidden states of historical traffic demands with environmental factors to predict the next-period traffic demands. |
 
 *Bowen Du, Xiao Hu, Leilei Sun, Junming Liu, Yanan Qiao, Weifeng Lv*
 
@@ -175,14 +175,12 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
-
-[1] **Origin-Destination Matrix Prediction via Graph Convolution: a New Perspective of Passenger Demand Modeling.** SIGKDD 2019. [note](), [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330877)
+[1] **Origin-Destination Matrix Prediction via Graph Convolution: a New Perspective of Passenger Demand Modeling.** KDD 2019. [note](./papers/2019/KDD/GEML/note.md), [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330877)
 
   *Yuandong Wang, Hongzhi Yin, Hongxu Chen, Tianyu Wo, Jie Xu, Kai Zheng*
 
 <hr>
-
-[2] **STG2Seq: Spatial-temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.** IJCAI 2019. [paper](https://arxiv.org/abs/1905.10069)
+[2] **STG2Seq: Spatial-temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.** IJCAI 2019.[note](./papers/2019/IJCAI/STG2Seq/note.md), [paper](https://arxiv.org/abs/1905.10069)
 
   *Lei Bai, Lina Yao , Salil.S Kanhere, Xianzhi Wang, Quan.Z Sheng*
 
@@ -204,21 +202,21 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ## [Travel time or Arrive time Prediction](#content)
 
-**HetETA: Heterogeneous Information Network Embedding for Estimating Time of Arrival.** SIGKDD 2020. [note](), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/heteta-heterogeneous-information-network-embedding-for-estimating-time-of-a), [github](https://github.com/didi/heteta)
+[1] **HetETA: Heterogeneous Information Network Embedding for Estimating Time of Arrival.** KDD 2020. [note](./papers/2020/KDD/HetETA/note.md), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/heteta-heterogeneous-information-network-embedding-for-estimating-time-of-a), [github](https://github.com/didi/heteta)
 
-| Models |    Modules     |        Architecture         | conclusion                                                   |
-| :----: | :------------: | :-------------------------: | :----------------------------------------------------------- |
-| HetETA | GatedCNNs, GCN | ![HetETA](./img/HetETA.png) | In this paper, traffic structure is constructed by digging deeper semantic information of traffic network. HetETA combines gated convolution neural networks and graph neural networks to capture the correlations in spatiotemporal information. |
+| Models |    Modules     |                    Architecture                    | conclusion                                                   |
+| :----: | :------------: | :------------------------------------------------: | :----------------------------------------------------------- |
+| HetETA | GatedCNNs, GCN | ![HetETA](./papers/2020/KDD/HetETA/img/HetETA.png) | In this paper, traffic structure is constructed by digging deeper semantic information of traffic network. HetETA combines gated convolution neural networks and graph neural networks to capture the correlations in spatiotemporal information. |
 
 *Huiting Hong, Yucheng Lin, Xiaoqing Yang, Zang Li, Kun Fu, Zheng Wang, Xiaohu Qie, Jieping Ye*
 
 ---
 
-**CompactETA: A Fast Inference System for Travel Time Prediction.** KDD 2020. [note](), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/compacteta-a-fast-inference-system-for-travel-time-prediction)
+[2] **CompactETA: A Fast Inference System for Travel Time Prediction.** KDD 2020. [note](./papers/2020/KDD/CompactETA/note.md), [paper](https://www.kdd.org/kdd2020/accepted-papers/view/compacteta-a-fast-inference-system-for-travel-time-prediction)
 
-| Models | Modules | Architecture | conclusion |
-| :----: | :-----: | :----------: | :--------: |
-|        |         |              |            |
+|   Models   |                   Modules                    |                         Architecture                         | conclusion                                                   |
+| :--------: | :------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------- |
+| CompactETA | Graph attention network, Positional encoding | ![CompactETA](./papers/2020/KDD/CompactETA/img/CompactETA.png) | This paper use a compact model for real-time inference. The inference model use high level link representations as input feature, which is learnt on road network graph by a graph attention network equipped with positional encoding. These representations capture the spatiotemporal dependency between roads, and further encode the sequential information of the travel route. |
 
 *Kun Fu, Fanlin Meng, Jieping Ye, Zheng Wang*
 
@@ -228,8 +226,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
-
-[1] **Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting.** AAAI 2019. [paper](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf).
+[1] **Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting.** AAAI 2019. [note](./papers/2019/AAAI/ST-MGCN/note.md), [paper](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf).
 
   *Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu*
 
