@@ -155,9 +155,9 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 [1] **Taxi Demand Prediction Using Parallel Multi-Task Learning Model.** TITS 2020. [note](), [paper](https://ieeexplore.ieee.org/document/9172100)
 
-| Models  | Modules |                      Architecture                      | conclusion                                                   |
-| :-----: | :-----: | :----------------------------------------------------: | :----------------------------------------------------------- |
-| pmlLSTM |         | ![pmlLSTm](./papers/2020/TITS/pmlLSTM/img/pmlLSTM.png) | This paper focus on the co-prediction of taxi pick-up and drop-off demands, and propose a parallel multi-task learning model, which can deal with shared features of multiple tasks simultaneously. In addition, this paper  design a novel taxi demand classifier to extract the time information hidden in the data, which embeds the time of a day feature into the forecasting model. |
+| Models  |  Modules   |                      Architecture                      | conclusion                                                   |
+| :-----: | :--------: | :----------------------------------------------------: | :----------------------------------------------------------- |
+| pmlLSTM | Multi-Task | ![pmlLSTm](./papers/2020/TITS/pmlLSTM/img/pmlLSTM.png) | This paper focus on the co-prediction of taxi pick-up and drop-off demands, and propose a parallel multi-task learning model, which can deal with shared features of multiple tasks simultaneously. In addition, this paper  design a novel taxi demand classifier to extract the time information hidden in the data, which embeds the time of a day feature into the forecasting model. |
 
 *Chizhan Zhang, Fenghua Zhu, Xiao Wang, Leilei Sun, Haina Tang, Yisheng Lv*
 
