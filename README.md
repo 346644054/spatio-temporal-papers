@@ -185,11 +185,13 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
 [1] **Origin-Destination Matrix Prediction via Graph Convolution: a New Perspective of Passenger Demand Modeling.** KDD 2019. [note](./papers/2019/KDD/GEML/note.md), [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330877)
 
   *Yuandong Wang, Hongzhi Yin, Hongxu Chen, Tianyu Wo, Jie Xu, Kai Zheng*
 
 <hr>
+
 [2] **STG2Seq: Spatial-temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.** IJCAI 2019.[note](./papers/2019/IJCAI/STG2Seq/note.md), [paper](https://arxiv.org/abs/1905.10069)
 
   *Lei Bai, Lina Yao , Salil.S Kanhere, Xianzhi Wang, Quan.Z Sheng*
@@ -236,6 +238,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
 [1] **Spatiotemporal Multi-Graph Convolution Network for Ride-hailing Demand Forecasting.** AAAI 2019. [note](./papers/2019/AAAI/ST-MGCN/note.md), [paper](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf).
 
   *Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu*
