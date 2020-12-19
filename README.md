@@ -64,6 +64,8 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ## [Traffic Prediction](#content)
 
+<details><summary> 2020 </summary>
+
 [1] **[Spatio-Temporal Graph Structure Learning for Traffic Forecasting.](./papers/2020/AAAI/SLC)** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5470).
 
 | Models |  Modules   |                 Architecture                 | conclusion                                                   |
@@ -103,6 +105,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 *Chao Song, Youfang Lin, Shengnan Guo, Huaiyu Wan*
 
 ---
+</details>
 
 <details><summary> 2019 </summary>
 
@@ -110,7 +113,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 | Models |               Modules               |                    Architecture                     | conclusion                                                   |
 | :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
-| ASTGCN | SAtt, TAtt, | ![ASTGCN](./papers/2019/AAAI/ASTGCN/img/ASTGCN.png) | This paper proposes a new spatial-temporal attention mechanism to effectively capture the dynamic spatialtemporal correlations in traffic data. and use the spatial-temporal convolution which simultaneously employs graph convolutions to capture the spatial patterns and common standard convolutions to describe the temporal features. |
+| ASTGCN | SAtt, TAtt, | ![ASTGCN](./papers/2019/AAAI/ASTGCN/img/ASTGCN.png) | This paper proposes a new spatial-temporal attention mechanism to effectively capture the dynamic spatial-temporal correlations in traffic data. and use the spatial-temporal convolution which simultaneously employs graph convolutions to capture the spatial patterns and common standard convolutions to describe the temporal features. |
 
 *Shengnan Guo, Youfang Lin, Ning Feng, Chao Song, Huaiyu Wan*
 
@@ -118,7 +121,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 [2] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
-  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
+*Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 
 <hr>
 
