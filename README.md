@@ -106,9 +106,19 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 <details><summary> 2019 </summary>
 
-[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+[1] **Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting** AAAI 2019. [note](./papers/2019/AAAI/ATSGCN/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3881), [github](https://github.com/guoshnBJTU/ASTGCN-r-pytorch)
 
-  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
+| Models |               Modules               |                    Architecture                     | conclusion                                                   |
+| :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
+| ASTGCN | SAtt, TAtt, | ![ASTGCN](./papers/2019/AAAI/ASTGCN/img/ASTGCN.png) | This paper proposes a new spatial-temporal attention mechanism to effectively capture the dynamic spatial-temporal correlations in traffic data. and use the spatial-temporal convolution which simultaneously employs graph convolutions to capture the spatial patterns and common standard convolutions to describe the temporal features. |
+
+*Shengnan Guo, Youfang Lin, Ning Feng, Chao Song, Huaiyu Wan*
+
+---
+
+[2] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+
+*Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
 
 <hr>
 
