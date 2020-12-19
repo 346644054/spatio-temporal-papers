@@ -64,8 +64,6 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ## [Traffic Prediction](#content)
 
-<details><summary> 2020 </summary>
-
 [1] **[Spatio-Temporal Graph Structure Learning for Traffic Forecasting.](./papers/2020/AAAI/SLC)** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5470).
 
 | Models |  Modules   |                 Architecture                 | conclusion                                                   |
@@ -105,7 +103,6 @@ Contributions are always welcome! Make an individual pull request for each sugge
 *Chao Song, Youfang Lin, Shengnan Guo, Huaiyu Wan*
 
 ---
-</details>
 
 <details><summary> 2019 </summary>
 
