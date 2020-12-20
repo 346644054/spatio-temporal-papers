@@ -112,7 +112,7 @@ This section is for traffic prediction topic-related articles, which refers to a
 
 <details><summary> 2020 </summary>
 
-[1] **[Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks](./papers/2020/TKDD/MGSTC/Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks)** TKDD 2020. [note](./papers/2020/TKDD/MGSTC/note.md). 
+[1] **[Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks](./papers/2020/TKDD/MGSTC/MGSTC)** TKDD 2020. [note](./papers/2020/TKDD/MGSTC/note.md). 
 
 
 | Models | Modules |                         Architecture                         | Highlights                                                   |
