@@ -64,102 +64,205 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 ## [Traffic Prediction](#content)
 
-[1] **[Spatio-Temporal Graph Structure Learning for Traffic Forecasting.](./papers/2020/AAAI/SLC)** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5470).
+本节为交通预测主题相关文章，即文中未指明特定研究主题（如速度/流量预测等），且实验部分也使用多类数据集验证的文章。
+
+<details><summary> 2020 </summary>
+
+
+[1] **[Spatio-Temporal Graph Structure Learning for Traffic Forecasting.](./papers/2020/AAAI/SLC/SLC)** AAAI 2020. [note](./papers/2020/AAAI/SLC/note.md)
 
 | Models |  Modules   |                 Architecture                 | conclusion                                                   |
 | :----- | :--------: | :------------------------------------------: | :----------------------------------------------------------- |
 | SLC    | SLCNN, P3D | ![STGCN](./papers/2020/AAAI/SLC/img/SLC.png) | This paper proposes a new type of graph convolution formula. **The article mentions that it is necessary to learn not only the feature information on the graph, but also the structure information of the graph**, which means that the structure of the graph changes dynamically. Use P3D to model the time dependence. |
 
-*Qi Zhang, Jianlong Chang, Gaofeng Meng, Shiming Xiang, Chunhong Pan*
+*[Q Zhang](https://scholar.google.com.hk/citations?user=RDwnNsQAAAAJ&hl=zh-CN&oi=sra), J Chang, [G Meng](https://scholar.google.com.hk/citations?user=5hti_r0AAAAJ&hl=zh-CN&oi=sra), [S Xiang](https://scholar.google.com.hk/citations?user=0ggsACEAAAAJ&hl=zh-CN&oi=sra), C Pan*
 
----
+------
 
-[2] **GMAN: A Graph Multi-Attention Network for Traffic Prediction.** AAAI 2020. [note](./papers/2020/AAAI/GMAN/note.md), [paper](https://arxiv.org/pdf/1911.08415.pdf), [github](https://github.com/zhengchuanpan/GMAN)
+[2] **[GMAN: A Graph Multi-Attention Network for Traffic Prediction](./papers/2020/AAAI/GMAN/GMAN)** AAAI 2020. [note](./papers/2020/AAAI/GMAN/note.md), [github](https://github.com/zhengchuanpan/GMAN)
 
 | Models |                   Modules                    |                 Architecture                  | conclusion                                                   |
 | :----: | :------------------------------------------: | :-------------------------------------------: | :----------------------------------------------------------- |
 |  GMAN  | Encoder-Decoder,ST-Attention,Trans Attention | ![GMAN](./papers/2020/AAAI/GMAN/img/GMAN.png) | This paper proposes a spatial-temporal attention mechanism with gated fusion to simulate complex spatial-temporal correlation. |
 
-*Chuanpan Zheng, Xiaoliang Fan, Cheng Wang, Jianzhong Qi*
+*[C Zheng](https://scholar.google.com.hk/citations?user=8BAMXAMAAAAJ&hl=zh-CN&oi=sra), [X Fan](https://scholar.google.com.hk/citations?user=gR7VT-4AAAAJ&hl=zh-CN&oi=sra), [C Wang](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=sra), [J Qi](https://scholar.google.com.hk/citations?user=mxS6eHYAAAAJ&hl=zh-CN&oi=sra)*
 
----
+------
 
-[3] **Dynamic Graph Convolution Network for Traffic Forecasting Based on Latent Network of Laplace Matrix Estimation.** IEEE Transactions on Intelligent Transportation Systems(TITS) 2020. [note](./papers/2020/TITS/DGCN/note.md), [paper](https://ieeexplore.ieee.org/document/9190068)
+[3] [**Dynamic Graph Convolution Network for Traffic Forecasting Based on Latent Network of Laplace Matrix Estimation.**](./papers/2020/TITS/DGCN/DGCN) IEEE Transactions on Intelligent Transportation Systems(TITS) 2020. [note](./papers/2020/TITS/DGCN/note.md), [paper](https://ieeexplore.ieee.org/document/9190068)
 
 | Models | Modules  |                  Architecture                   | conclusion                                                   |
 | :----: | :------: | :---------------------------------------------: | :----------------------------------------------------------- |
 |  DGCN  | TCL,GTCL | ![STSGCN](./papers/2020/TITS/DGCN/img/DGCN.png) | Different from most of the current GCN based methods, which generally used empirical graph Laplace matrix in graph convolution, this paper propose a latent network to estimate the dynamic Laplace matrix adaptively, which is verified with good ability to extract spatial-temporal correlation of the traffic data. |
 
-*Kan Guo, Yongli Hu, ZhenQian, Yanfeng Sun, Junbin Gao, Baocai Yin*
+*K Guo, [Y Hu](https://scholar.google.com.hk/citations?user=qeG9e2AAAAAJ&hl=zh-CN&oi=sra), [Z Qian](https://scholar.google.com.hk/citations?user=i8vD3O0AAAAJ&hl=zh-CN&oi=sra), Y Sun, [J Gao](https://scholar.google.com.hk/citations?user=3-KJN8IAAAAJ&hl=zh-CN&oi=sra)*
 
----
+<hr>
+</details>
 
-[4] **Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.** AAAI 2020. [note](./papers/2020/AAAI/STSGCN/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN)
+## [Flow Prediction](#content)
 
-| Models |               Modules               |                    Architecture                     | conclusion                                                   |
-| :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
-| STSGCN | Spatial-Temporal Embedding, STSGCM, | ![STSGCN](./papers/2020/AAAI/STSGCN/img/STSGCN.png) | This paper proposes a new structured local spatio-temporal graph. By combining the graph structures of adjacent time slices into a local spatio-temporal graph, a new adjacency matrix is constructed, which can simultaneously capture spatio-temporal dependence. |
+<details><summary> 2020 </summary>
+[1] **[Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks](./papers/2020/TKDD/MGSTC/Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks)** TKDD 2020. [note](./papers/2020/TKDD/MGSTC/note.md). 
 
-*Chao Song, Youfang Lin, Shengnan Guo, Huaiyu Wan*
 
----
+| Models | Modules |                         Architecture                         | Highlights                                                   |
+| :----: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------- |
+| MGSTC  |         | <img src=".\papers\2020\TKDD\MGSTC\img\MGSTC.png" alt="MGSTC" style="zoom: 50%;" /> | (1) Motivated by the gate mechanism utilized in LSTM, we also propose a novel spatio-temporal gated mechanism based on CNNs. 基于LSTM中门控机制，作者提出了一种基于CNN的时空门控机制。<br>(2)  The MGSTC can combine the output features of the multiple gated spatio-temporal CNN branches, and assign weights to different branches dynamically. |
+
+ *[C Chen](https://scholar.google.com/citations?user=BIQ_I9wAAAAJ&hl=zh-CN&oi=sra), [K Li](https://scholar.google.com/citations?user=yuQLgRAAAAAJ&hl=zh-CN&oi=sra), SG Teo, X Zou, [K Li](https://scholar.google.com/citations?user=x0YtT7QAAAAJ&hl=zh-CN&oi=sra), [Z Zeng](https://scholar.google.com/citations?user=ztBsejkAAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+[2] **[AutoST: Efficient Neural Architecture Search for Spatio-Temporal Prediction](./papers/2020/KDD/AutoST/AutoST Efficient Neural Architecture Search for Spatio-Temporal Prediction)** SIGKDD 2020. [note](./papers/2020/KDD/AutoST/note.md). 
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| AutoST |         | <img src=".\papers\2020\KDD\AutoST\img\AutoST.png" alt="MGSTC" style="zoom: 50%;" /> |            |
+
+*T Li, [J Zhang](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=zh-CN&oi=sra), K Bao, [Y Liang](https://scholar.google.com/citations?user=n9cODgcAAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+[3] **[Physical-Virtual Collaboration Modeling for Intra-and Inter-Station Metro Ridership Prediction](./papers/2020/TITS/PVCGN/PVCGN)** TITS 2020. [note](./papers/2020/TITS/PVCGN/note.md). [code](https://github.com/HCPLab-SYSU/PVCGN?utm_source=catalyzex.com). 
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| PVCGN  |         | <img src=".\papers\2020\TITS\PVCGN\img\PVCGN.png" alt="PVCGN" style="zoom: 50%;" /> |            |
+
+*[L Liu](https://scholar.google.com/citations?user=sh2DmQgAAAAJ&hl=zh-CN&oi=sra), J Chen, [H Wu](https://scholar.google.com/citations?user=gX2pNewAAAAJ&hl=zh-CN&oi=sra), J Zhen*
+
+------
+
+[4] **[Dynamic Spatial-Temporal Representation Learning for Traffic Flow Prediction](./papers/2020/KDD/AutoST/AutoST Efficient Neural Architecture Search for Spatio-Temporal Prediction)** TITS 2020. [note](./papers/2020/TITS/ATFM/ATFM). [code](https://github.com/liulingbo918/ATFM?utm_source=catalyzex.com). 
+
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+|  ATFM  |         | <img src=".\papers\2020\TITS\ATFM\img\ATFM.png" alt="ATFM" style="zoom: 50%;" /> |            |
+
+*[L Liu](https://scholar.google.com/citations?user=sh2DmQgAAAAJ&hl=zh-CN&oi=sra), J Zhen, [G Li](https://scholar.google.com/citations?user=2A2Bx2UAAAAJ&hl=zh-CN&oi=sra), G Zhan*
+
+------
+
+[5] **[Spatial-Temporal Convolutional Graph Attention Networks for Citywide Traffic Flow Forecasting](./papers/2020/CIKM/STCGA)** CIKM 2020. [note](./papers/2020/CIKM/STCGA/note.md). 
+
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| STCGA  |         | <img src=".\papers\2020\CIKM\STCGA\img\STCGA.png" alt="STCGA" style="zoom: 50%;" /> |            |
+
+*X Zhang, [C Huang](https://scholar.google.com/citations?user=Zkv9FqwAAAAJ&hl=zh-CN&oi=sra), Y Xu, [L Xia](https://scholar.google.com/citations?user=fDDjoUEAAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+[6] **[DeepSTD: Mining Spatio-Temporal Disturbances of Multiple Context Factors for Citywide Traffic Flow Prediction](./papers/2020/TITS/DeepSTD/DeepSTD)** TITS 2020. [note](./papers/2020/TITS/DeepSTD/note.md). 
+
+| Models  | Modules |                         Architecture                         | Highlights |
+| :-----: | :-----: | :----------------------------------------------------------: | :--------: |
+| DeepSTD |         | <img src=".\papers\2020\TITS\DeepSTD\img\DeepSTD.png" alt="DeepSTD" style="zoom: 50%;" /> |            |
+
+  *[C Zheng](https://scholar.google.com.hk/citations?user=8BAMXAMAAAAJ&hl=zh-CN&oi=sra), [X Fan](https://scholar.google.com.hk/citations?user=gR7VT-4AAAAJ&hl=zh-CN&oi=sra), [C Wen](https://scholar.google.com.hk/citations?user=JOoZUmUAAAAJ&hl=zh-CN&oi=sra), [L Chen](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=sra)*
+
+<hr>
+
+
+[7] **[Predicting Citywide Crowd Flows in Irregular Regions Using Multi-View Graph Convolutional Networks](./papers/2020/TKDE/MVGCN/MVGCN)** TKDE 2020. [note](./papers/2020/KDD/AutoST/note.md). 
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| MVGCN  |         | <img src=".\papers\2020\TKDE\MVGCN\img\MVGCN.png" alt="MVGCN" style="zoom: 50%;" /> |            |
+
+  *[J Sun](https://scholar.google.com/citations?user=GuZu8CoAAAAJ&hl=zh-CN&oi=sra), [J Zhang](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=zh-CN&oi=sra), Q Li, [X Yi](https://scholar.google.com/citations?user=FfzTDSQAAAAJ&hl=zh-CN&oi=sra), [Y Liang](https://scholar.google.com/citations?user=n9cODgcAAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+[8] **[Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting.]()** AAAI 2020. [note](./papers/2020/AAAI/STSGCN/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/5438), [github](https://github.com/Davidham3/STSGCN)
+
+| Models |               Modules               |                         Architecture                         | Highlights                                                   |
+| :----: | :---------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------- |
+| STSGCN | Spatial-Temporal Embedding, STSGCM, | <img src="./papers/2020/AAAI/STSGCN/img/STSGCN.png" alt="STSGCN" style="zoom:50%;" /> | (1) 本文主要解决以往时空图卷积块没有实现时空相关性同步捕获的问题。<br>(2) 作者提出局部时空图概念<br>(3) We propose a novel spatial-temporal graph convolutional. 作者提出了一种新的时空图卷积模块来直接同步捕获局部时空相关性，而不是单独使用不同类型的神经网络模块。<br>(4) 全局遮罩矩阵和时空嵌入矩阵也在一定程度上增强了模型对时空信息的捕获能力。 |
+
+*C Song, Y Lin, [S Guo](https://scholar.google.com.hk/citations?user=3JsSBYsAAAAJ&hl=zh-CN&oi=sra), [H Wan](https://scholar.google.com.hk/citations?user=T5wVWIUAAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+
+
+<hr>
+</details>
+
 
 <details><summary> 2019 </summary>
+[1] **[Flow Prediction in Spatio-Temporal Networks Based on Multitask Deep Learning](./papers/2019/TKDE/MDL/MDL)** TKDE 2019. [note](./papers/2019/TKDE/MDL/note.md). 
 
-[1] **Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting** AAAI 2019. [note](./papers/2019/AAAI/ATSGCN/note.md), [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3881), [github](https://github.com/guoshnBJTU/ASTGCN-r-pytorch)
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+|  MDL   |         | <img src=".\papers\2019\TKDE\MDL\img\MDL.png" alt="MDL" style="zoom: 50%;" /> |            |
 
-| Models |               Modules               |                    Architecture                     | conclusion                                                   |
-| :----: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------- |
+  *[J Zhang](https://scholar.google.com.hk/citations?user=juUcdgYAAAAJ&hl=zh-CN&oi=sra), [Y Zheng](https://scholar.google.com.hk/citations?user=sQpMBqsAAAAJ&hl=zh-CN&oi=sra), [J Sun](https://scholar.google.com.hk/citations?user=GuZu8CoAAAAJ&hl=zh-CN&oi=sra), D Qi*
+
+<hr>
+
+
+[2] **[UrbanFM: Inferring Fine-Grained Urban Flows](./papers/2019/KDD/UrbanFM)** SIGKDD 2019. [note](./papers/2019/KDD/UrbanFM/note.md).  [code](https://github.com/nnzhan/Graph-WaveNet)
+
+| Models  | Modules |                         Architecture                         | Highlights |
+| :-----: | :-----: | :----------------------------------------------------------: | :--------: |
+| UrbanFM |         | <img src=".\papers\2019\KDD\UrbanFM\img\UrbanFM.png" alt="UrbanFM" style="zoom: 50%;" /> |            |
+
+  *[Y Liang](https://scholar.google.com/citations?user=n9cODgcAAAAJ&hl=zh-CN&oi=sra), [K Ouyang](https://scholar.google.com/citations?user=CY6FH6YAAAAJ&hl=zh-CN&oi=sra), L Jing, [S Ruan](https://scholar.google.com/citations?user=oecbn38AAAAJ&hl=zh-CN&oi=sra)*
+
+------
+
+[3] **[Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting](./papers/2019/AAAI/ATSGCN/ASTGCN)** AAAI 2019. [note](./papers/2019/AAAI/ATSGCN/note.md), [github](https://github.com/guoshnBJTU/ASTGCN-r-pytorch)
+
+| Models |   Modules   |                    Architecture                     | conclusion                                                   |
+| :----: | :---------: | :-------------------------------------------------: | :----------------------------------------------------------- |
 | ASTGCN | SAtt, TAtt, | ![ASTGCN](./papers/2019/AAAI/ASTGCN/img/ASTGCN.png) | This paper proposes a new spatial-temporal attention mechanism to effectively capture the dynamic spatial-temporal correlations in traffic data. and use the spatial-temporal convolution which simultaneously employs graph convolutions to capture the spatial patterns and common standard convolutions to describe the temporal features. |
 
 *Shengnan Guo, Youfang Lin, Ning Feng, Chao Song, Huaiyu Wan*
 
 ---
 
-[2] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
-
-*Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
-
-<hr>
-
-</details>
-
----
-
 <details><summary> 2018 </summary>
+[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
 
-[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| STGCN  |         | <img src=".\papers\2018\IJCAI\STGCN\img/STGCN.png" alt="STGCN" style="zoom: 50%;" /> |            |
 
   *Bing Yu, Haoteng Yin, Zhanxing Zhu*
 
-<hr>
-</details>
+------
 
 
-
-## [Flows Prediction](#content)
-
-
-<details><summary> 2019 </summary>
-
-[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
-
-  *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
-
-<hr>
-
-</details>
-
----
-
-<details><summary> 2018 </summary>
-
-[1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [paper](https://arxiv.org/pdf/1709.04875.pdf), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
-
-  *Bing Yu, Haoteng Yin, Zhanxing Zhu*
 
 <hr>
 </details>
+<details><summary> Other years </summary>
+
+[1] **[Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction](./papers/2016/AAAI/ST-ResNet)** AAAI 2016. [note](./papers/2016/AAAI/ST-ResNet/note.md).
+
+|  Models   | Modules |                         Architecture                         | Highlights |
+| :-------: | :-----: | :----------------------------------------------------------: | :--------: |
+| ST-ResNet |         | <img src="./papers/others/AAAI/ST-ResNet/img/ST-ResNet.png" alt="ST-ResNet" style="zoom: 50%;" /> |            |
+
+  *[J Zhang](https://scholar.google.com.hk/citations?user=juUcdgYAAAAJ&hl=zh-CN&oi=sra), [Y Zheng](https://scholar.google.com.hk/citations?user=sQpMBqsAAAAJ&hl=zh-CN&oi=sra), D Qi*
+
+------
+
+[2] **[Diffusion Convolutional Recurrent Neural Network*: *Data*-*Driven Traffic Forecasting](.\papers\2017\ICLR\DCRNN/DCRNN)** ICLR 2017. [note](.\papers\2017\ICLR\DCRNN/note.md), [github](https://github.com/liyaguang/DCRNN?utm_source=catalyzex.com).
+
+| Models | Modules |                         Architecture                         | Highlights |
+| :----: | :-----: | :----------------------------------------------------------: | :--------: |
+| DCRNN  |         | <img src=".\papers\others\ICLR\DCRNN/img/DCRNN.png" alt="DCRNN" style="zoom: 50%;" /> |            |
+
+  *[Y Li](https://scholar.google.com.hk/citations?user=fv5TMfIAAAAJ&hl=zh-CN&oi=sra), [R Yu](https://scholar.google.com.hk/citations?user=4HTITaMAAAAJ&hl=zh-CN&oi=sra), [C Shahabi](https://scholar.google.com.hk/citations?user=jEdhxGMAAAAJ&hl=zh-CN&oi=sra), [Y Liu](https://scholar.google.com.hk/citations?user=UUKLPMYAAAAJ&hl=zh-CN&oi=sra)*
+
+<hr>
+</details>
+
 
 ## [Demand Prediction](#content)
 
@@ -253,7 +356,23 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 <hr>
 </details>
+## [Speed Prediction](#content)
 
+<details><summary> 2019 </summary>
+
+[1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
+
+| Models |              Modules               |                Architecture                 | conclusion                                                   |
+| :----: | :--------------------------------: | :-----------------------------------------: | :----------------------------------------------------------- |
+|  GWN   | GCN with adaptive Matrix,Gated TCN | ![GWN](./papers/2019/IJCAI/GWN/img/GWN.png) | This paper proposes a diffusion convolution formula with an adaptive adjacency matrix on the basis of DCRNN. During the training process, it also emphasizes that the structure of the graph changes dynamically. The paper uses two embedding vectors to dynamically learn the graph structure. Causal convolution is used to model time dependence. The overall structure of the model is similar to WaveNet. |
+
+*Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang*
+
+<hr>
+</details>
+
+
+## 
 
 # [Datasets](#content)
 
