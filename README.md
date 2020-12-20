@@ -16,15 +16,15 @@ Contributions are always welcome! Make an individual pull request for each sugge
 <tr><td colspan="2"><a href="#applications">2. Applications</a></td></tr> 
 <tr>
     <td>&emsp;<a href="#traffic-prediction">2.1 Traffic Prediction</a></td>
-    <td>&ensp;<a href="#flows-prediction">2.2 Flows Prediction</a></td>
+    <td>&ensp;<a href="#flow-prediction">2.2 Flow Prediction</a></td>
 </tr> 
 <tr>
     <td>&emsp;<a href="#demand-prediction">2.3 Demand Prediction</a></td>
     <td>&ensp;<a href="#travel-time-or-arrive-time-prediction">2.4 Travel time or Arrive time Prediction</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href="#traffic-prediction">2.5 Speed Prediction</a></td>
-    <td>&ensp;<a href="#flows-prediction"> </a></td>    
+	<td>&emsp;<a href="#speed-prediction">2.5 Speed Prediction</a></td>
+    <td>&ensp;<a href=""> </a></td>    
 </tr>
 <tr><td colspan="2"><a href="#datasets">3. Datasets</a></td></tr>
 <tr>
@@ -36,6 +36,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 </tr> 
 <tr><td colspan="2"><a href="#experts">4. Experts</a></td></tr> 
 </table>
+
 
 
 
@@ -111,7 +112,6 @@ This section is for traffic prediction topic-related articles, which refers to a
 ## [Flow Prediction](#content)
 
 <details><summary> 2020 </summary>
-
 [1] **[Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks](./papers/2020/TKDD/MGSTC/MGSTC)** TKDD 2020. [note](./papers/2020/TKDD/MGSTC/note.md). 
 
 
