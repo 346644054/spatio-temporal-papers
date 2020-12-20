@@ -22,6 +22,10 @@ Contributions are always welcome! Make an individual pull request for each sugge
     <td>&emsp;<a href="#demand-prediction">2.3 Demand Prediction</a></td>
     <td>&ensp;<a href="#travel-time-or-arrive-time-prediction">2.4 Travel time or Arrive time Prediction</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href="#traffic-prediction">2.5 Speed Prediction</a></td>
+    <td>&ensp;<a href="#flows-prediction"> </a></td>    
+</tr>
 <tr><td colspan="2"><a href="#datasets">3. Datasets</a></td></tr>
 <tr>
     <td>&emsp;<a href="#sensor-data">3.1 Sensor data</a></td>
@@ -32,6 +36,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 </tr> 
 <tr><td colspan="2"><a href="#experts">4. Experts</a></td></tr> 
 </table>
+
 
 
 # [Survey papers](#content)
@@ -65,6 +70,8 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ## [Traffic Prediction](#content)
 
 本节为交通预测主题相关文章，即文中未指明特定研究主题（如速度/流量预测等），且实验部分也使用多类数据集验证的文章。
+
+This section is for traffic prediction topic-related articles, which refers to a category of articles that do not specify a specific research topic (e.g., speed/traffic prediction, etc.) and where the experimental part is also validated using multiple types of datasets.
 
 <details><summary> 2020 </summary>
 
@@ -100,11 +107,11 @@ Contributions are always welcome! Make an individual pull request for each sugge
 <hr>
 </details>
 
+
 ## [Flow Prediction](#content)
 
 <details><summary> 2020 </summary>
 [1] **[Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks](./papers/2020/TKDD/MGSTC/Citywide Traffic Flow Prediction Based on Multiple Gated Spatio-temporal Convolutional Neural Networks)** TKDD 2020. [note](./papers/2020/TKDD/MGSTC/note.md). 
-
 
 | Models | Modules |                         Architecture                         | Highlights                                                   |
 | :----: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------- |
@@ -164,8 +171,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
   *[C Zheng](https://scholar.google.com.hk/citations?user=8BAMXAMAAAAJ&hl=zh-CN&oi=sra), [X Fan](https://scholar.google.com.hk/citations?user=gR7VT-4AAAAJ&hl=zh-CN&oi=sra), [C Wen](https://scholar.google.com.hk/citations?user=JOoZUmUAAAAJ&hl=zh-CN&oi=sra), [L Chen](https://scholar.google.com.hk/citations?user=kAnv3SkAAAAJ&hl=zh-CN&oi=sra)*
 
-<hr>
-
+------
 
 [7] **[Predicting Citywide Crowd Flows in Irregular Regions Using Multi-View Graph Convolutional Networks](./papers/2020/TKDE/MVGCN/MVGCN)** TKDE 2020. [note](./papers/2020/KDD/AutoST/note.md). 
 
@@ -194,7 +200,10 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 
 <details><summary> 2019 </summary>
+
+
 [1] **[Flow Prediction in Spatio-Temporal Networks Based on Multitask Deep Learning](./papers/2019/TKDE/MDL/MDL)** TKDE 2019. [note](./papers/2019/TKDE/MDL/note.md). 
+
 
 | Models | Modules |                         Architecture                         | Highlights |
 | :----: | :-----: | :----------------------------------------------------------: | :--------: |
@@ -202,8 +211,7 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
   *[J Zhang](https://scholar.google.com.hk/citations?user=juUcdgYAAAAJ&hl=zh-CN&oi=sra), [Y Zheng](https://scholar.google.com.hk/citations?user=sQpMBqsAAAAJ&hl=zh-CN&oi=sra), [J Sun](https://scholar.google.com.hk/citations?user=GuZu8CoAAAAJ&hl=zh-CN&oi=sra), D Qi*
 
-<hr>
-
+------
 
 [2] **[UrbanFM: Inferring Fine-Grained Urban Flows](./papers/2019/KDD/UrbanFM)** SIGKDD 2019. [note](./papers/2019/KDD/UrbanFM/note.md).  [code](https://github.com/nnzhan/Graph-WaveNet)
 
@@ -226,7 +234,10 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2018 </summary>
+
+
 [1] **[Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.](./papers/2018/IJCAI/STGCN)** IJCAI 2018. [note](./papers/2018/IJCAI/STGCN/note.md), [github](https://github.com/VeritasYin/STGCN_IJCAI-18).
+
 
 | Models | Modules |                         Architecture                         | Highlights |
 | :----: | :-----: | :----------------------------------------------------------: | :--------: |
@@ -240,7 +251,10 @@ Contributions are always welcome! Make an individual pull request for each sugge
 
 <hr>
 </details>
+
 <details><summary> Other years </summary>
+
+
 
 [1] **[Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction](./papers/2016/AAAI/ST-ResNet)** AAAI 2016. [note](./papers/2016/AAAI/ST-ResNet/note.md).
 
@@ -353,12 +367,15 @@ Contributions are always welcome! Make an individual pull request for each sugge
 ---
 
 <details><summary> 2018 </summary>
-
 <hr>
 </details>
+
+
 ## [Speed Prediction](#content)
 
+
 <details><summary> 2019 </summary>
+
 
 [1] **[Graph WaveNet for Deep Spatial-Temporal Graph Modeling.](./papers/2019/IJCAI/GWN)** IJCAI 2019. [note](./papers/2019/IJCAI/GWN/note.md). [paper](https://arxiv.org/abs/1906.00121), [github](https://github.com/nnzhan/Graph-WaveNet)
 
@@ -371,8 +388,6 @@ Contributions are always welcome! Make an individual pull request for each sugge
 <hr>
 </details>
 
-
-## 
 
 # [Datasets](#content)
 
