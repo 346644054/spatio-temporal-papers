@@ -23,18 +23,24 @@ Contributions are always welcome! Make an individual pull request for each sugge
     <td>&ensp;<a href="#travel-time-or-arrive-time-prediction">2.4 Travel time or Arrive time Prediction</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href="#speed-prediction">2.5 Speed Prediction</a></td>
+	  <td>&emsp;<a href="#speed-prediction">2.5 Speed Prediction</a></td>
     <td>&ensp;<a href=""> </a></td>    
 </tr>
-<tr><td colspan="2"><a href="#datasets">3. Datasets</a></td></tr>
+<tr><td colspan="2"><a href="#graph-neural-network">3. GNN</a></td></tr>
 <tr>
-    <td>&emsp;<a href="#sensor-data">3.1 Sensor data</a></td>
-    <td>&ensp;<a href="#trajectory-data">3.2 Trajectory data</a></td>
+    <td>&emsp;<a href="#graph-convolutional-neural-network">3.1 GCN</a></td>
+    <td>&ensp;<a href="#graph-attention-network">3.2 GAT</a></td>
+</tr>
+<tr><td colspan="2"><a href="#datasets">4. Datasets</a></td></tr>
+<tr>
+    <td>&emsp;<a href="#sensor-data">4.1 Sensor data</a></td>
+    <td>&ensp;<a href="#trajectory-data">4.2 Trajectory data</a></td>
 </tr> 
 <tr>
-    <td>&emsp;<a href="#Others">3.3 others</a></td>
+    <td>&emsp;<a href="#Others">4.3 others</a></td>
+    <td>&ensp;<a href=""> </a></td>
 </tr> 
-<tr><td colspan="2"><a href="#experts">4. Experts</a></td></tr> 
+<tr><td colspan="2"><a href="#experts">5. Experts</a></td></tr> 
 </table>
 
 
@@ -390,6 +396,22 @@ This section is for traffic prediction topic-related articles, which refers to a
 
 <hr>
 </details>
+
+# [Graph Neural Network](#content)
+
+## [Graph Convolutional Neural Network](#content)
+
+[1] **AM-GCN: Adaptive Multi-channel Graph Convolutional Networks.** KDD 2020. [note](./papers/2020/KDD/AM-GCN/note.md), [paper](https://arxiv.org/pdf/2007.02265.pdf), [github](https://github.com/zhumeiqiBUPT/AM-GCN)
+
+| Models |    Modules     |                    Architecture                    | conclusion                                                   |
+| :----: | :------------: | :------------------------------------------------: | :----------------------------------------------------------- |
+| AM-GCN | Specific Convolution Module, Common Convolution Module, Consistency Constraint, Disparity Constraint | ![AM-GCN](./papers/2020/KDD/AM-GCN/img/AM-GCN.png) | This paper aims to solve the problem of how to better learn the characteristic information of nodes on the basis of graph structure. The AM-GCN model proposed in this paper integrates the graph convolution into specific graph convolution and common graph convolution by constructing multiple graphs, and adds restrictions to make the model get better results. |
+
+*Xiao Wang, Meiqi Zhu, Deyu Bo, Peng Cui, Chuan Shi, Jian Pei*
+
+---
+
+## [Graph Attention Network](#content)
 
 
 # [Datasets](#content)
