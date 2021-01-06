@@ -405,7 +405,7 @@ This section is for traffic prediction topic-related articles, which refers to a
 
 | Models |    Modules     |                    Architecture                    | conclusion                                                   |
 | :----: | :------------: | :------------------------------------------------: | :----------------------------------------------------------- |
-| AM-GCN | Specific Convolution Module, Common Convolution Module, Consistency Constraint, Disparity Constraint | ![AM-GCN](./papers/2020/KDD/AM-GCN/img/AM-GCN.png) | This paper aims to solve the problem of how to better learn the characteristic information of nodes on the basis of graph structure. The AM-GCN model proposed in this paper integrates the graph convolution into specific graph convolution and common graph convolution by constructing multiple graphs, and adds restrictions to make the model get better results. |
+| AM-GCN | specific and common convolution, consistency and disparity constraint | ![AM-GCN](./papers/2020/KDD/AM-GCN/img/AM-GCN.png) | This paper aims to solve the problem of how to better learn the characteristic information of nodes on the basis of graph structure. The AM-GCN model proposed in this paper integrates the graph convolution into specific graph convolution and common graph convolution by constructing multiple graphs, and adds restrictions to make the model get better results. |
 
 *Xiao Wang, Meiqi Zhu, Deyu Bo, Peng Cui, Chuan Shi, Jian Pei*
 
